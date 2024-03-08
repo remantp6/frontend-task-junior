@@ -4,6 +4,9 @@ import CarouselSection from './components/CarouselSection'
 import AboutUs from './components/AboutUs'
 import Testimonials from './components/Testimonials'
 import Statistics from './components/Statistics'
+import News from './components/News'
+import InquiryForm from './components/InquiryForm'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +16,9 @@ const App = () => {
      <AboutUs/>
      <Testimonials/>
      <Statistics/>
+     <News/>
+     <InquiryForm/>
+     <Footer/>
     </>
   )
 }
