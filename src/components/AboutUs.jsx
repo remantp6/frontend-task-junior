@@ -3,14 +3,13 @@ import company from "../assets/company.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-100">
     <div className="w-3/4 mx-auto">
       <div className="py-24">
-        <h2 className="text-2xl font-bold pb-16 text-center">About Us</h2>
+        <h2 className="text-4xl font-bold pb-16 text-center text-white">About Us</h2>
         <div className="flex flex-row">
           <img src={company} alt="Company" className="w-1/3 rounded-lg" />
           <div className="ps-16">
-            <p className="text-black text-justify">
+            <p className="text-white text-justify">
               At our company, we are driven by a relentless passion for
               innovation and technology. With a team of skilled developers and
               engineers, we specialize in crafting tailored software solutions
@@ -21,13 +20,12 @@ const AboutUs = () => {
               transformative technology, leveraging the latest advancements in
               AI, IoT, and cloud computing.{" "}
             </p>
-            <button className="bg-[#000235] mt-3 px-6 py-2 text-white text-lg hover:bg-[#001A48] transition duration-300 ease-in-out">
+            <button className="border border-white mt-3 px-6 py-2 text-lg hover:bg-[#131727] text-white transition duration-300 ease-in-out">
               Learn More
             </button>
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
