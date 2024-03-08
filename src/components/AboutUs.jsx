@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="bg-gray-100">
     <div className="w-3/4 mx-auto">
-      <div className="py-20">
+      <div className="py-24">
         <h2 className="text-2xl font-bold pb-16 text-center">About Us</h2>
         <div className="flex flex-row">
           <img src={company} alt="Company" className="w-1/3 rounded-lg" />
