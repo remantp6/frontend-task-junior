@@ -1,12 +1,15 @@
 import React from "react";
+import logo from '../assets/logo.png';
 
 const NavBar = () => {
   return (
     <div>
-      <nav className="bg-gray-800 p-4">
+      <nav className="bg-[#000235] px-4">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-lg">Logo</div>
-          <ul className="flex space-x-4">
+          <div>
+          <img src={logo} alt="logo" className="w-28 h-16 object-fill"/>
+          </div>
+          <ul className="flex space-x-10">
             <li className="text-white">Home</li>
             <li className="text-white">About</li>
             <li className="text-white">Services</li>
