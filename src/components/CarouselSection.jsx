@@ -13,7 +13,7 @@ const CarouselSection = () => {
             src={slider1}
             alt="First slide"
           />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 top-2/3 w-[1100px]">
+          <div className="absolute left-1/2 transform -translate-x-1/2 top-2/3 w-[1100px] pt-6">
             <Carousel.Caption>
               <h1 className="text-5xl font-bold pb-8">
                 Transforming Ideas into Reality
@@ -33,7 +33,7 @@ const CarouselSection = () => {
             src={slider2}
             alt="Second slide"
           />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 top-2/3 w-[1100px]">
+          <div className="absolute left-1/2 transform -translate-x-1/2 top-2/3 w-[1100px] pt-6">
             <Carousel.Caption>
               <h1 className="text-5xl font-bold pb-8">
                 Empowering Your Digital Journey

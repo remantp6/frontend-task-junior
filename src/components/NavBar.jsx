@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav className="bg-[#000235] px-4">
         <div className="container mx-auto flex justify-between items-center">
           <div>
-          <img src={logo} alt="logo" className="w-28 h-16 object-fill"/>
+          <img src={logo} alt="logo" className=" w-16 h-16 object-fill rounded-full"/>
           </div>
           <ul className="flex space-x-10">
             <li className="text-white">Home</li>
