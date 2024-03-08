@@ -3,6 +3,7 @@ import company from "../assets/company.jpg";
 
 const AboutUs = () => {
   return (
+    <div className="bg-gray-100">
     <div className="w-3/4 mx-auto">
       <div className="py-20">
         <h2 className="text-2xl font-bold pb-16 text-center">About Us</h2>
@@ -26,6 +27,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
