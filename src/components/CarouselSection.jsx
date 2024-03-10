@@ -12,7 +12,7 @@ const CarouselSection = () => {
       
         <Carousel.Item>
           <img
-            className="d-block w-screen h-screen object-cover blur-[2px]"
+            className="d-block lg:w-screen lg:h-screen object-cover blur-[2px]"
             src={demo}
             alt="First slide"
           />
@@ -32,7 +32,7 @@ const CarouselSection = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-screen h-screen object-cover blur-sm"
+            className="d-block lg:w-screen lg:h-screen object-cover blur-sm"
             src={demo2}
             alt="Second slide"
           />

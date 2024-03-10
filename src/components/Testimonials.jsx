@@ -6,10 +6,10 @@ import avatar3 from "../assets/avatar3.png";
 const Testimonials = () => {
   return (
     <div className="container mx-auto">
-      <h2 className="text-white text-4xl text-center font-bold pb-16">
+      <h2 className="text-white text-4xl text-center font-bold  pb-12 lg:pb-16">
         Testimonials
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-6 lg:grid-cols-3">
         <div className="bg-[#7b7b7e] backdrop-filter backdrop-blur-lg bg-opacity-15 p-4 rounded-lg mx-auto w-[350px] h-auto">
           <img
             src={avatar1}

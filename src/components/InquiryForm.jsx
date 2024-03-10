@@ -4,18 +4,18 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const InquiryForm = () => {
   return (
-    <div className="py-24">
+    <div className="py-12 lg:py-24">
       <div className="container">
         <h2 className="text-white text-4xl font-bold pb-3">Get in Touch</h2>
         <div className="flex flex-row justify-between">
           <div>
-            <p className="text-white text-xl pe-32">
+            <p className="text-white text-xl pe-2 lg:pe-32">
               Please feel welcome to visit our space anytime and see what our
               community has built.
             </p>
             <div className="flex flex-row items-center text-white text-lg mt-12">
               <MdOutlineEmail />
-              <p className="ps-2">company@gmail.com</p>
+              <p className="ps-2 pe-2 md:pe-0">company@gmail.com</p>
             </div>
             <div className="flex flex-row items-center text-white text-lg my-8">
               <FaPhoneAlt />
@@ -27,7 +27,7 @@ const InquiryForm = () => {
             </div>
           </div>
 
-          <form className="w-2/4">
+          <form className="lg:w-2/4">
             <input
               type="text"
               placeholder="Enter your full name"

@@ -4,11 +4,13 @@ import company from "../assets/company.jpg";
 const AboutUs = () => {
   return (
     <div className="w-3/4 mx-auto">
-      <div className="py-24">
-        <h2 className="text-4xl font-bold pb-16 text-center text-white">About Us</h2>
-        <div className="flex flex-row">
-          <img src={company} alt="Company" className="w-1/3 rounded-lg" />
-          <div className="ps-16">
+      <div className="py-12 lg:py-24">
+        <h2 className="text-4xl font-bold pb-10 lg:pb-16 text-center text-white">
+          About Us
+        </h2>
+        <div className="flex flex-col lg:flex-row">
+          <img src={company} alt="Company" className="lg:w-1/3 rounded-lg" />
+          <div className="pt-2 lg:pt-0 lg:ps-16">
             <p className="text-white text-justify">
               At our company, we are driven by a relentless passion for
               innovation and technology. With a team of skilled developers and

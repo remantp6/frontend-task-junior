@@ -6,10 +6,13 @@ const Statistics = () => {
   const [counterStart, setCounterStart] = useState(false);
 
   return (
-    <ScrollTrigger onEnter={() => setCounterStart(true)} onExit={() => setCounterStart(false)}>
-      <div className="py-24">
+    <ScrollTrigger
+      onEnter={() => setCounterStart(true)}
+      onExit={() => setCounterStart(false)}
+    >
+      <div className="py-12 lg:py-24">
         <div className="container mx-auto">
-          <h2 className="text-white text-center text-4xl font-bold mb-4 pb-16">
+          <h2 className="text-white text-center text-4xl font-bold lg:mb-4 pb-10 lg:pb-16">
             Accomplishments
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
