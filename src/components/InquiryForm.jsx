@@ -9,7 +9,7 @@ const InquiryForm = () => {
         <h2 className="text-white text-4xl font-bold pb-3">Get in Touch</h2>
         <div className="flex flex-row justify-between">
           <div>
-            <p className="text-white text-xl pe-2 lg:pe-32">
+            <p className="text-white text-xl pe-6 lg:pe-32">
               Please feel welcome to visit our space anytime and see what our
               community has built.
             </p>
